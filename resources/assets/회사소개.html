@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/aos.js"></script>
 </head>
 
 <body>
@@ -32,7 +33,6 @@
                                 ESG 간단 진단
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">ESG 간단진단 및 보고서</a></li>
                                 <li><a class="dropdown-item" href="#">ESG 간단진단 (중소기업용)</a></li>
                                 <li><a class="dropdown-item" href="#">ESG 심화진단 (대기업용)</a></li>
                                 <li><a class="dropdown-item" href="#">위험성평가</a></li>
@@ -59,7 +59,7 @@
         <div class="sub_cont">
             <div class="cont_top bg_01">
                 <div class="container">
-                    <h1>회사소개</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="1000">회사소개</h1>
                 </div>
             </div>
             <div class="cont_body">
@@ -125,10 +125,6 @@
                                 <li>
                                     <img src="img/sub/partner_06.png" alt="">
                                 </li>
-                                <li>
-                                    <img src="img/sub/partner_07.png" alt="">
-                                </li>
-
                             </ul>
                         </div>
                     </div>
@@ -141,10 +137,11 @@
                                 <dt>2023</dt>
                                 <dd>
                                     <ul class="history">
+                                        <li>한국인증센터(주)와 ESG평가 프로그램 개발</li>
                                         <li>ESGHUB 설립</li>
-                                        <li>(재)화성산업 진흥원 주최 탈 것 전시기업 성과공유제도 코칭 인증</li>
+                                        <li>(재)화성산업 진흥원 주최 모빌리티 전시기업 성과공유제도 코칭 인증</li>
                                         <li>ISO 및 중소중견기업 안전보건 이행 및 위험성 평가 컨설팅</li>
-                                        <li>스타트업 TIPS(Pre-TIPS 포함) 사업계획 코칭</li>
+                                        <li>스타트업 TIPS(Pre-TIPS 포함) Scale Up 코칭</li>
                                     </ul>
                                 </dd>
                             </dl>
@@ -180,7 +177,7 @@
                                 <dt>~2018</dt>
                                 <dd>
                                     <ul class="history">
-                                        <li>벤처기업협회 기술 가치평가 상담제</li>
+                                        <li>벤처기업협회 기술 가치평가 지원</li>
                                         <li>이노비즈협회 기업부설 연구소 운영관리 코칭 (설립/취소 세액공제)</li>
                                         <li>정부 지원사업 연구·개발 및 IP-연구·개발 코칭 통한 기업가치 상승 중소중견기업</li>
                                         <li>사업양수도, 특정 법인을 활용한 기업승계 및 특례의 활용</li>
@@ -271,6 +268,9 @@
 
     </div>
 
+    <script>
+        AOS.init();
+    </script>
     <script src="lib/jquery.min.js"></script>
 </body>
 

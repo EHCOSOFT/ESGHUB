@@ -1616,6 +1616,11 @@ main {
     padding: 1.5rem 0;
 }
 
+.new_list {
+    display: flex;
+    flex-direction: column;
+}
+
 .new_list img {
     width: 100%;
 }
@@ -1641,6 +1646,18 @@ main {
     margin: 1rem 0 0 0;
 }
 
+.new_list button,
+.btn_primary {
+    background: #E8EFF5;
+    border-radius: 8px;
+    border: 0;
+    color: #1F8142;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 5rem auto 0 auto;
+    padding: 0.75rem 1.5rem;
+}
+
 @media (min-width: 768px) {
     .new_list img {
         max-width: 320px;
@@ -1657,7 +1674,7 @@ main {
         gap: 32px;
     }
 
-    .new_list ul li {
+    .new_list ul li a {
         align-items: center;
         display: flex;
         gap: 40px;
@@ -1704,6 +1721,89 @@ main {
     text-align: center;
 }
 
+.esg_wrap .desc {
+    color: #5AA574;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin: 2rem 0 4.25rem 0;
+    text-align: center;
+}
+
+.esg_top {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.esg_top .row {
+    gap: 12px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.input_group label {
+    color: #35373E;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.input_group input {
+    border: 1px solid #E3E3E5;
+    border-radius: 0.75rem;
+    color: #AFAFB2;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.125rem 1rem;
+}
+
+.radio_group_two {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.radio_group_two h6 {
+    color: #35373E;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.radio_area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.radio_item input {
+    display: none;
+}
+
+.radio_item label {
+    align-items: center;
+    color: #5C5C61;
+    font-size: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.radio_item label::before {
+    background: url(../img/ico/i_radio.png);
+    background-size: cover;
+    content: '';
+    display: inline-block;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.radio_item input:checked+label::before {
+    background: url(../img/ico/i_radio_checked.png);
+    background-size: cover;
+}
+
 .esg_list {
     display: flex;
     flex-direction: column;
@@ -1736,6 +1836,7 @@ main {
 
 .radio_group {
     display: flex;
+    flex: 0 0 auto;
     gap: 4px;
 }
 
@@ -1755,8 +1856,8 @@ main {
     font-weight: 600;
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0;
-    width: 3.875rem;
+    padding: 0.5rem 0.875rem;
+    min-width: 3.875rem;
 }
 
 .radio_group input:checked+label {
@@ -1777,6 +1878,10 @@ main {
 }
 
 @media (min-width: 992px) {
+    .esg_top .row {
+        gap: 0;
+    }
+
     .esg_wrap .container {
         max-width: 1100px;
     }
@@ -1907,4 +2012,72 @@ main {
     .result {
         width: calc((100% / 2) - 1.25rem);
     }
+}
+
+.risk_wrap {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.risk_wrap h1 {
+    color: #2C2C34;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.risk_area {
+    background: #F4F6F7;
+    border-radius: 0.875rem;
+    margin: 6.125rem 0 0 0;
+    padding: 2.5rem 1.25rem 3.75rem 1.25rem;
+    text-align: center;
+}
+
+.risk_area p {
+    color: #18552E;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.risk_area h2 {
+    font-size: 6.25rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    margin: 2rem 0 1.875rem 0;
+}
+
+.risk_area h2.high {
+    color: #FF4242;
+}
+
+.risk_area h2.middle {
+    color: #EBA655;
+}
+
+.risk_area h2.low {
+    color: #799FFF;
+}
+
+.risk_area h6 {
+    color: #2C2C34;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.8125rem;
+}
+
+@media (min-width: 992px) {
+    .risk_wrap {
+        height: 100%;
+        padding: 13.125rem 0 0 0;
+    }
+
+    .risk_wrap .container {
+        max-width: 800px;
+    }
+}
+
+[data-aos=fade-up] {
+    transform: translate3d(0,40px,0);
 }
