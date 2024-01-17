@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESGHUB</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="esg_wrap">
+        <div class="container">
+            <h1>위험성 평가</h1>
+            <div class="esg_list">
+                <div class="esg_item">
+                    <h3>작업장비의 사용</h3>
+                    <ul>
+                        <li>
+                            분쇄, 고정, 찌르기, 두드리기, 잡거나 끌어당길 수 있는 회전 또는 동작 부품의 부적절한 가드
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            사람을 칠 수 있는 부품 또는 재료의 자저운동(추락, 구름, 미끄러짐, 절삭, 비래, 스윙, 붕괴)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            기계 및 차량 이동
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            화재 및 폭발 위험(마찰, 압력용기 등)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            위험을 내포한 보조 장치
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>작업 실습 및 구내 설계</h3>
+                    <ul>
+                        <li>
+                            위험한 표면(날카로운 모서리, 모서리, 포인트, 거치른 표면, 돌출부분)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            높은장소에의 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            서투른 자세/움직임을 포함한 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            제한된 공간(고정물사이에서의 작업)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            전도(걸려 넘어짐 및 미끄러짐, 젖어있거나 다른 미끄러운 표면 등)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            작업장소의 안정성
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            개인보호구를 착용하였을 때 작업의 다른 측면에 대한 영향
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            작업기술 및 방법
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            밀폐공간에서의 출입 및 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>전기의 사용</h3>
+                    <ul>
+                        <li>
+                            전기 개폐기
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            전기 설치, 환상주회로, 조명회로 등
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            전기로 작동되는 장치, 제어, 절연
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            휴대용 전기도구
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            전기에너지에 의해 촉발되는 화재 또는 폭발
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            머리위의 전기선
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label> 
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="esg_item">
+                    <h3>건강 및 안전에 대한 위험물질 또는 위험한 시제품에 대한 노출</h3>
+                    <ul>
+                        <li>
+                            건강에 위험한 물질의 흡입, 섭취 및 피부 흡수(에어로졸 및 입자 포함)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            가연성 물질 및 폭발성물질의 사용
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            산소의 결핍(질식)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            부식성물질의 존재
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            반응성 물질/불안정한 물질
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            감광물질의 존재
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label> 
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="esg_item">
+                    <h3>물리적 요인에 대한 노출</h3>
+                    <ul>
+                        <li>
+                            전자기 방사선(열, 빛, 엑스레이, 전리방사선)에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            레이저에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            소음, 초음파에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            기계적 진동에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            뜨거운 물질/매개체에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            차가운 물질/매개체에 대한 노출
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label> 
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            압력(압축된 공기, 증기, 액체)하에 있는 저체의 존재
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label> 
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>생물학적요인에 대한 노출</h3>
+                    <ul>
+                        <li>
+                            미생물, 균체외 독소 및 균체내 독소에 의도되지 않은 노출의 결과 및 취급으로 일어나는 감염위험
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            미생물(습식냉각탑에 퍼져있는 레지오넬라균 등)에 대한 부주의한 노출로 인한 감염위험
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            알러지의 저중
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>환경요인 및 작업 기후</h3>
+                    <ul>
+                        <li>
+                            부적당한 또는 부적절한 조명
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            온도/습도/환기의 부적절한 제어
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            오염물의 저중
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>작업장소 및 인적요인에 대한 상호작용</h3>
+                    <ul>
+                        <li>
+                            정확한 정보처리 및 접수 필요성에 대한 안전시스템 의존도
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            직원 지식 및 능력에 대한 의존도
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            행동규범에 대한 의존도
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            조건이 변화되는 것을 멈추기 위한 적절한 지침 및 의사소통에 대한 의존도
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            안전한 작업 절차로부터 합리적으로 예견할 수 있는 새로운 시도에 대한 영향
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            개인보호구의 적합성
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            안전하게 작업하기 위한 서투른 동기
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            근로자에게 적합한 작업현장설계 등, 인간공학적 요소
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>심리적 요인</h3>
+                    <ul>
+                        <li>
+                            일의 가혹성(강도, 단조로움)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            작업 장소의 조건(밀실공포증, 혼자하는 작업 등)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            모호한 역할 또는 충돌되는 역할
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            작업과 일에 대한 의사결정 기여도
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            높은 생산량(수요 요구) 및 작업제어의 결핍
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            비상상태에 대한 반응
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>작업조직</h3>
+                    <ul>
+                        <li>
+                            작업공정에 의한 요인(연속성, 교대시스템, 야간근중 등)
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            건강 및 안전공정에 대한 조직, 기획, 모니터링 및 제어에 대한 효율적인 경영시스템 및 조정
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            안전장치를 포함한 장비의 저지
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            재해 및 응급조치를 처리하기 위한 적절한 조치
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="esg_item">
+                    <h3>기타 요인</h3>
+                    <ul>
+                        <li>
+                            다른 사람들(상대직원, 경비원, 경찰에 대한 폭력 등)에 의해 발생되는 위한 및 스포츠
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            동물과 함께하는 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            대기압 이상 또는 대기압 이하에서 행하는 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            가혹한 기후조건
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            소프트웨어의 중결성 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            수면근처 또는 수면아래에서 행하는 작업
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                        <li>
+                            다양한 작업장소
+                            <div class="radio_group">
+                                <input type="radio" id="radio01" name="e01"><label for="radio01">저</label>
+                                <input type="radio" id="radio02" name="e01"><label for="radio02">중</label>
+                                <input type="radio" id="radio03" name="e01"><label for="radio03">고</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button">완료</button>
+            </div>
+        </div>
+    </div>
+    <script src="lib/jquery.min.js"></script>
+</body>
+
+</html>
